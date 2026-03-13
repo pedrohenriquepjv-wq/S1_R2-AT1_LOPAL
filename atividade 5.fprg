@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="atividade 5"/>
+        <attribute name="authors" value="1devsesi46a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-13 02:25:32 "/>
+        <attribute name="created" value="MWRldnNlc2k0NmE7RUNGUDUwN0QxMzE5NTk3OzIwMjYtMDMtMTM7IjAyOjIwOjM3ICI7MzA3NA=="/>
+        <attribute name="edited" value="MWRldnNlc2k0NmE7RUNGUDUwN0QxMzE5NTk3OzIwMjYtMDMtMTM7IjAyOjI1OjMyICI7MTszMTgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1" type="Real" array="False" size=""/>
+            <declare name="nota2" type="Real" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <assign variable="media" expression="(nota1 + nota2)/2"/>
+        </body>
+    </function>
+</flowgorithm>
